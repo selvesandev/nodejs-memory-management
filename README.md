@@ -10,8 +10,9 @@ To understand process and thread you first we have to understand what a `program
 
 Each process has it's own memory and space therefore one process cannot curropt the memory and space of another process. For eg: chrome runs each of it's tab in it's own process therefore if one tab misbehaves another tab is unaffected.
 
-Now these process have atleast one thread which is called main thread. A process can have multiple threads. Thread is a unit of execution within a process. Imagine this as a thing that travels through the instruction and codes to execute them. Thread consist of `Stack`, `Registers`, `Program Counters`. Thread within a process share memory and space. It is also possible to communicate between threads using their shared memory and space.
+Now these process have atleast one thread which is called main thread. A process can have multiple threads. Thread is a unit of execution within a process. Imagine this as a thing that travels through the instruction and codes to execute them. Thread consist of `Stack`, `Registers`, `Program Counters`. Thread within a process share memory and space. It is also possible to communicate between threads using their shared memory and space. Also one misbehaving thread can bring down a entire process.
 
 
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/cd36fd22-4233-4690-b99c-dca8922568d1">
+
 
